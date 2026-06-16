@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SweetBloom.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19383e7cee16b7ec86e2f387465e1b7ada76e3c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2e730ece5330280905931b0a78cb2d866abd824")]
 [assembly: System.Reflection.AssemblyProductAttribute("SweetBloom.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SweetBloom.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
