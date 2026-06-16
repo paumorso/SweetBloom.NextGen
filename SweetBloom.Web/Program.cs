@@ -24,6 +24,14 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapGet("/health", () => "SweetBloom OK");
+app.MapGet("/health", () =>
+{
+    return Results.Ok(new
+    {
+        Status = "Healthy",
+        Version = "0.1",
+        Environment = app.Environment.EnvironmentName
+    });
+});
 
 app.Run();
